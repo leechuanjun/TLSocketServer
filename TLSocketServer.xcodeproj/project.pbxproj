@@ -12,6 +12,10 @@
 		7EA43FFF1BBA64200033A457 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA43FFE1BBA64200033A457 /* ViewController.m */; };
 		7EA440011BBA64200033A457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EA440001BBA64200033A457 /* Assets.xcassets */; };
 		7EA440041BBA64200033A457 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EA440021BBA64200033A457 /* Main.storyboard */; };
+		7EA440171BBA64880033A457 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA4400F1BBA64880033A457 /* GCDAsyncSocket.m */; settings = {ASSET_TAGS = (); }; };
+		7EA440181BBA64880033A457 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA440111BBA64880033A457 /* GCDAsyncUdpSocket.m */; settings = {ASSET_TAGS = (); }; };
+		7EA440191BBA64880033A457 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA440141BBA64880033A457 /* AsyncSocket.m */; settings = {ASSET_TAGS = (); }; };
+		7EA4401A1BBA64880033A457 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA440161BBA64880033A457 /* AsyncUdpSocket.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,15 @@
 		7EA440001BBA64200033A457 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EA440031BBA64200033A457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7EA440051BBA64200033A457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EA4400C1BBA64880033A457 /* CocoaAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaAsyncSocket.h; sourceTree = "<group>"; };
+		7EA4400E1BBA64880033A457 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		7EA4400F1BBA64880033A457 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		7EA440101BBA64880033A457 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		7EA440111BBA64880033A457 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		7EA440131BBA64880033A457 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		7EA440141BBA64880033A457 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		7EA440151BBA64880033A457 /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
+		7EA440161BBA64880033A457 /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,7 @@
 		7EA43FF61BBA64200033A457 /* TLSocketServer */ = {
 			isa = PBXGroup;
 			children = (
+				7EA4400B1BBA64880033A457 /* CocoaAsyncSocket */,
 				7EA43FF71BBA64200033A457 /* AppDelegate.h */,
 				7EA43FF81BBA64200033A457 /* AppDelegate.m */,
 				7EA43FFD1BBA64200033A457 /* ViewController.h */,
@@ -74,6 +88,38 @@
 				7EA43FFB1BBA64200033A457 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EA4400B1BBA64880033A457 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				7EA4400C1BBA64880033A457 /* CocoaAsyncSocket.h */,
+				7EA4400D1BBA64880033A457 /* GCD */,
+				7EA440121BBA64880033A457 /* RunLoop */,
+			);
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		7EA4400D1BBA64880033A457 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				7EA4400E1BBA64880033A457 /* GCDAsyncSocket.h */,
+				7EA4400F1BBA64880033A457 /* GCDAsyncSocket.m */,
+				7EA440101BBA64880033A457 /* GCDAsyncUdpSocket.h */,
+				7EA440111BBA64880033A457 /* GCDAsyncUdpSocket.m */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		7EA440121BBA64880033A457 /* RunLoop */ = {
+			isa = PBXGroup;
+			children = (
+				7EA440131BBA64880033A457 /* AsyncSocket.h */,
+				7EA440141BBA64880033A457 /* AsyncSocket.m */,
+				7EA440151BBA64880033A457 /* AsyncUdpSocket.h */,
+				7EA440161BBA64880033A457 /* AsyncUdpSocket.m */,
+			);
+			path = RunLoop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,9 +191,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EA440171BBA64880033A457 /* GCDAsyncSocket.m in Sources */,
+				7EA440181BBA64880033A457 /* GCDAsyncUdpSocket.m in Sources */,
 				7EA43FFF1BBA64200033A457 /* ViewController.m in Sources */,
+				7EA440191BBA64880033A457 /* AsyncSocket.m in Sources */,
 				7EA43FFC1BBA64200033A457 /* main.m in Sources */,
 				7EA43FF91BBA64200033A457 /* AppDelegate.m in Sources */,
+				7EA4401A1BBA64880033A457 /* AsyncUdpSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

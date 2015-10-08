@@ -7,9 +7,9 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "CocoaAsyncSocket/CocoaAsyncSocket.h"
 
 @interface ViewController : NSViewController
-
 
 @end
 
