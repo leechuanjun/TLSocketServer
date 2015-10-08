@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EA43FF91BBA64200033A457 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA43FF81BBA64200033A457 /* AppDelegate.m */; };
+		7EA43FFC1BBA64200033A457 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA43FFB1BBA64200033A457 /* main.m */; };
+		7EA43FFF1BBA64200033A457 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA43FFE1BBA64200033A457 /* ViewController.m */; };
+		7EA440011BBA64200033A457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EA440001BBA64200033A457 /* Assets.xcassets */; };
+		7EA440041BBA64200033A457 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EA440021BBA64200033A457 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7EA43FF41BBA64200033A457 /* TLSocketServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLSocketServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EA43FF71BBA64200033A457 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7EA43FF81BBA64200033A457 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7EA43FFB1BBA64200033A457 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7EA43FFD1BBA64200033A457 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7EA43FFE1BBA64200033A457 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7EA440001BBA64200033A457 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EA440031BBA64200033A457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EA440051BBA64200033A457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EA43FF11BBA64200033A457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EA43FEB1BBA64200033A457 = {
+			isa = PBXGroup;
+			children = (
+				7EA43FF61BBA64200033A457 /* TLSocketServer */,
+				7EA43FF51BBA64200033A457 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EA43FF51BBA64200033A457 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EA43FF41BBA64200033A457 /* TLSocketServer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EA43FF61BBA64200033A457 /* TLSocketServer */ = {
+			isa = PBXGroup;
+			children = (
+				7EA43FF71BBA64200033A457 /* AppDelegate.h */,
+				7EA43FF81BBA64200033A457 /* AppDelegate.m */,
+				7EA43FFD1BBA64200033A457 /* ViewController.h */,
+				7EA43FFE1BBA64200033A457 /* ViewController.m */,
+				7EA440001BBA64200033A457 /* Assets.xcassets */,
+				7EA440021BBA64200033A457 /* Main.storyboard */,
+				7EA440051BBA64200033A457 /* Info.plist */,
+				7EA43FFA1BBA64200033A457 /* Supporting Files */,
+			);
+			path = TLSocketServer;
+			sourceTree = "<group>";
+		};
+		7EA43FFA1BBA64200033A457 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EA43FFB1BBA64200033A457 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EA43FF31BBA64200033A457 /* TLSocketServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EA440081BBA64200033A457 /* Build configuration list for PBXNativeTarget "TLSocketServer" */;
+			buildPhases = (
+				7EA43FF01BBA64200033A457 /* Sources */,
+				7EA43FF11BBA64200033A457 /* Frameworks */,
+				7EA43FF21BBA64200033A457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TLSocketServer;
+			productName = TLSocketServer;
+			productReference = 7EA43FF41BBA64200033A457 /* TLSocketServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EA43FEC1BBA64200033A457 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = lichuanjun;
+				TargetAttributes = {
+					7EA43FF31BBA64200033A457 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 7EA43FEF1BBA64200033A457 /* Build configuration list for PBXProject "TLSocketServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EA43FEB1BBA64200033A457;
+			productRefGroup = 7EA43FF51BBA64200033A457 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EA43FF31BBA64200033A457 /* TLSocketServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EA43FF21BBA64200033A457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA440011BBA64200033A457 /* Assets.xcassets in Resources */,
+				7EA440041BBA64200033A457 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EA43FF01BBA64200033A457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA43FFF1BBA64200033A457 /* ViewController.m in Sources */,
+				7EA43FFC1BBA64200033A457 /* main.m in Sources */,
+				7EA43FF91BBA64200033A457 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7EA440021BBA64200033A457 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EA440031BBA64200033A457 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EA440061BBA64200033A457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7EA440071BBA64200033A457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7EA440091BBA64200033A457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TLSocketServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niwodai.www.TLSocketServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7EA4400A1BBA64200033A457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TLSocketServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niwodai.www.TLSocketServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EA43FEF1BBA64200033A457 /* Build configuration list for PBXProject "TLSocketServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EA440061BBA64200033A457 /* Debug */,
+				7EA440071BBA64200033A457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EA440081BBA64200033A457 /* Build configuration list for PBXNativeTarget "TLSocketServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EA440091BBA64200033A457 /* Debug */,
+				7EA4400A1BBA64200033A457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EA43FEC1BBA64200033A457 /* Project object */;
+}
